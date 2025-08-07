@@ -6,7 +6,6 @@ function agregarAmigo() {
 
     if (nombre === "") {
         alert("Escribe un nombre válido");
-        return;
     }
 
     arrayAmigos.push(nombre);
